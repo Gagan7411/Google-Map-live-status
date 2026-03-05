@@ -59,3 +59,4 @@ Behind the scenes, this project is a handshake between two very different enviro
 
 ---
 *This project is part of my ongoing research into localized IoT and digital twin synchronization.*
+**Developed by "https://gagan-portfolio-theta.vercel.app/" **
