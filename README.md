@@ -19,14 +19,20 @@ When the store is operating normally, the dashboard confirms the status, and the
 
 | Dashboard (Open) | Google Maps Live View |
 | :---: | :---: |
-| ![Dashboard Open State Placeholder](https://via.placeholder.com/600x400?text=Dashboard+Open+State+Screenshot) | ![Maps Open Badge Placeholder](https://via.placeholder.com/600x400?text=Google+Maps+Live+Open+Badge) |
+<img width="1901" height="857" alt="Screenshot 2026-03-05 174759" src="https://github.com/user-attachments/assets/22f89614-fa16-4778-8754-f549127eca2e" />
+<img width="1915" height="863" alt="Screenshot 2026-03-05 174838" src="https://github.com/user-attachments/assets/4de16eab-3242-427c-8453-0ac60cd49f13" />
+
+
+Google+Maps+Live+Open+Badge) |
 
 ### 🔴 State: Store Closed
 If the owner needs to close early or take a break, they use the dashboard. After a biometric check, the status flips, and the Google Maps badge turns red immediately.
 
 | Dashboard (Closed) | Google Maps Live View |
 | :---: | :---: |
-| ![Dashboard Closed State Placeholder](https://via.placeholder.com/600x400?text=Dashboard+Closed+State+Screenshot) | ![Maps Closed Badge Placeholder](https://via.placeholder.com/600x400?text=Google+Maps+Live+Closed+Badge) |
+<img width="1918" height="861" alt="Screenshot 2026-03-05 174855" src="https://github.com/user-attachments/assets/46180954-ba05-487e-a767-a126ea03dc05" />
+
+<img width="1909" height="875" alt="Screenshot 2026-03-05 174907" src="https://github.com/user-attachments/assets/47e09fc1-72a2-454c-9d27-8ed8475b38ea" />
 
 ---
 
