@@ -1,0 +1,48 @@
+/* styles.css - Material Design 3 styles for ShopSwitch Live Status Badge */
+
+/* Note: These styles are injected globally but isolated in Shadow DOM for the badge */
+
+.shopswitch-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.shopswitch-badge.open {
+  background-color: #4caf50;
+  color: white;
+}
+
+.shopswitch-badge.closed {
+  background-color: #f44336;
+  color: white;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.dot.open {
+  background-color: white;
+  animation: pulse 2s infinite;
+}
+
+.dot.closed {
+  background-color: white;
+  /* Static, no animation */
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}

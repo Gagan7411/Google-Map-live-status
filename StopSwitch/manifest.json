@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ShopSwitch Live Status",
+  "version": "1.0.0",
+  "description": "Injects a live status badge into Google Maps for ShopSwitch",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/maps/*",
+        "*://www.google.co.in/maps/*",
+        "http://localhost/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
